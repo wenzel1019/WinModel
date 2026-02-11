@@ -4,7 +4,7 @@ echo This batch file will remove the Registry key associated with setting a cust
 echo Must be run with Administrator privileges.
 pause
 echo Removing WinModel...
-reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation\Model
+reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation\ /v Model
 echo Done! Press any key to exit this script...
 pause > NUL
 exit
